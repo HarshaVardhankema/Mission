@@ -19,7 +19,7 @@ public class Doctor {
                 // Navigate to DoctorLogin
                 page.navigate("https://midoc-provider-dev.azurewebsites.net/login");
 
-                String pageurl = page.url();
+             //   String pageurl = page.url();
                 System.out.println("Page url: " + pageurl);
                 page.waitForTimeout(8000);
 
